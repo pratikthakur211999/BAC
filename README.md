@@ -1,2 +1,2 @@
 # BAC
-A website for a education academy.
+A website for an education academy.
