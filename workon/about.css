@@ -1,0 +1,52 @@
+body	
+{
+	padding:0;
+	margin:0;
+	font-family: sans-serif;
+}
+
+section.section1
+{
+	top:0;
+	left:0;
+	background: linear-gradient(to right, #417148 0%, #9ec7a4 100%);
+	background-size: cover;
+}
+
+section.section2
+{
+	height:auto;
+}
+
+div.about_title h1 
+{
+	display:inline-block;
+	width:96vw;
+	text-align: center;
+	padding:10px 0% 0 0%;
+	cursor:pointer;
+	margin:10px 5px 0 20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size: 60px;
+	background-color: rgba(0,0,100,.8);
+	color:lightblue;
+	transition:transform .5s;
+}
+div.about_title h1:hover
+{
+	transform: scale(1.1);
+}
+
+div.about_title_1 h1
+{	
+	margin:77px 5px 0 20px;
+}
+
+.art p
+{
+	margin:0;
+	padding:15px 30px 10px 30px;
+	color:white;
+	font-size:20px;
+}

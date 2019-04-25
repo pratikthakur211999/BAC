@@ -1,0 +1,124 @@
+body
+{
+	font-family:sans-serif;
+	margin:0;
+	background-image:url(./img/login-bg.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+form
+{
+	margin:0;
+	width:400px;
+	padding:12vh 35%;
+	height:auto;
+}
+
+fieldset
+{
+	border-color:white;
+	border-width:2px;
+	color:white;
+}
+
+legend
+{
+	font-family:serif;
+	font-size:36px;
+	transition:transform .5s;
+}
+legend:hover
+{
+	transform:scale(1.1);
+}
+
+.form-inside
+{
+	margin:0;
+	font-size:20px;
+	width:auto;
+	height:auto;	
+	padding:5% 10%;
+}
+
+.together
+{
+	margin:10px;
+	padding:0;
+	border-style:solid;
+	border-width:0 0 1px 0;
+	border-color:white;
+}
+
+.user
+{
+	height:125px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:20px;
+	display:block;
+	transition:transform .5s;
+}
+.user:hover
+{
+	transform:scale(1.1);
+}
+
+div .icon
+{
+	display:inline;
+	margin:0;
+	padding:0;
+}
+
+.icon img
+{
+	margin:0 0 5px 0;
+}	
+
+.input
+{
+	display:inline;
+}
+
+.input input
+{
+	color:white;
+	font-size:18px;
+	border:none;
+	background-color:rgba(0,0,0,0);
+	width:88%;
+	height:auto;
+}
+
+.button
+{
+	text-align:center;
+}
+
+.button input
+{
+	height:60px;
+	font-weight:bold;
+	font-size:18px;
+	width:100%;
+	color:rgba(0,0,102,1);
+	background-color:white;
+	border:none;
+	transition:color .5s,background-color.5s, border-radius .5s;
+}
+.button input:hover
+{
+	cursor:pointer;
+	border-radius:18px;
+	color:white;
+	background-color:rgba(255,255,255,0.7)
+}
+
+div .forgot
+{
+	cursor:pointer;
+	padding-top:10px;
+	font-size:13px;
+}
